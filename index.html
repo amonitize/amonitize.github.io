@@ -1445,14 +1445,20 @@ p .li {
 
 #container05.default>.wrapper>.inner>.full:first-child {
 	margin-top: -1rem !important;
-	border-top-left-radius: inherit;
-	border-top-right-radius: inherit;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
 }
 
+#container05 {
+	border-top-left-radius: 0!important;
+	border-top-right-radius: 0!important;
+	border-bottom-left-radius: 5px!important;
+	border-bottom-right-radius: 5px!important;
+	     
 #container05.default>.wrapper>.inner>.full:last-child {
 	margin-bottom: -1rem !important;
-	border-bottom-left-radius: 0;
-	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 #container05.columns>.wrapper>.inner>div>.full {
